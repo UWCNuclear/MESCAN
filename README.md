@@ -1,11 +1,11 @@
 # autoGos
-Scans diagonal and transitional matrix element planes for intensity ratio matches
+Scans diagonal and transitional matrix element in the 2D plane until matching the experimental intensity ratio. 
 
 DESCRIPTION
 ------------
 
 autoGos takes a Gosia input file for a projectile with OP,INTI and calculates the intensity ratio for a given range of diagonal and transitional matrix elements.
-It outputs a list of diagonal and tranistional matrix elements for which the difference between the intensity ratio calculated with Gosia and the
+It outputs a list of diagonal and transitional matrix elements for which the difference between the intensity ratio calculated with Gosia and the
 intensity ratio calculated experimentally is smaller then a user defined value.
 
 REQUIREMENTS
