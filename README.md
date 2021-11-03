@@ -1,30 +1,30 @@
-# autoGos
+# MEScan
 Scans diagonal and transitional matrix element in the 2D plane until matching the experimental intensity ratio. 
 
 DESCRIPTION
 ------------
 
-autoGos takes a Gosia input file for a projectile with OP,INTI and calculates the intensity ratio for a given range of diagonal and transitional matrix elements.
+MEScan takes a Gosia input file for a projectile with OP,INTI and calculates the intensity ratio for a given range of diagonal and transitional matrix elements.
 It outputs a list of diagonal and transitional matrix elements for which the difference between the intensity ratio calculated with Gosia and the
 intensity ratio calculated experimentally is smaller then a user defined value.
 
 REQUIREMENTS
 ------------
 
-autoGos is written in Python and any python compiler is sufficient.
+MEScan is written in Python and any python compiler is sufficient.
 The yields are summed using a perl scrpit which is also provided
 Gosia also needs to be installed with the name "gosia" and the $PATH varible pointing to the installation directory
 
 USAGE
 ------------
 ```
-Usage: autoGos.py <Inputfile>
+Usage: MEScan.py <Inputfile>
 ```
 
 FILE FORMAT
 ------------
 
-autoGos requires a Gosia input file at the OP,INTI step. Note that autoGos assumes that the gosia input file is correct and executes without any errors.
+MEScan requires a Gosia input file at the OP,INTI step. Note that MEScan assumes that the gosia input file is correct and executes without any errors.
 Run Gosia with your input file and confirm that it executes correctly.
 
 OUTPUT
