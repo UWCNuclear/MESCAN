@@ -1,4 +1,4 @@
-# MEScan
+# MESCAN
 Scans diagonal and transitional matrix element in the 2D plane until matching the experimental intensity ratio. 
 
 DESCRIPTION
